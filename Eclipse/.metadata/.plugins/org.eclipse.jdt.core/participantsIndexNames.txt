@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1444455168.index
+\Lab4\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2717798959.index
+\Lab3\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\247220931.index
+\Lab4\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3283287992.index
+\ASM_1\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3518916675.index
+\Lab5\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2183410631.index
+\Lab6\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\185188617.index
+\Lab2\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\616201332.index
+\ASM_1\src\main\java
+C:\Users\coole\Desktop\Java4\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2186642329.index
+\ASM_1\src\main\java

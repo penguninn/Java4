@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<head>
+    <title>User Page</title>
+</head>
+
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Video title</th>
+            <th>Người thích</th>
+            <th>Ngày thích</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="f: ${favorites}">
+            <td th:text="${f.getVideo().getTitle()}"></td>
+            <td th:text="${f.getUser().getFullname()}"></td>
+            <td th:text="${f.getLikeDate()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<body>
+
+</body>
+</html>

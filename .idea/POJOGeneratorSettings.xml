@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="POJOGeneratorSettings">
+    <option name="dtoFolderPath" value="$PROJECT_DIR$/lab4/src/main/java/com/poly/dto/req" />
+    <option name="entityFolderPath" value="$PROJECT_DIR$/lab3/src/main/java/com/poly/Model" />
+  </component>
+</project>

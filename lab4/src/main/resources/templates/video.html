@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<head>
+    <title>User Page</title>
+</head>
+
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Video title</th>
+            <th>Số lượt chia sẻ</th>
+            <th>Ngày chia sẻ đầu tiên</th>
+            <th>Ngày chia sẻ cuối cùng</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr th:each="v: ${videodtos}">
+                <td th:text="${v.getTitle()}"></td>
+                <td th:text="${v.getShares()}"></td>
+                <td th:text="${v.getFirstShareDate()}"></td>
+                <td th:text="${v.getLastShareDate()}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<body>
+</body>
+</html>

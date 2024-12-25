@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <form class="row" method="GET" th:action="@{/search}">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Từ khóa</label>
+          <input type="text" class="form-control" id="inputEmail4" name="keyword" required>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th>Video title</th>
+          <th>Số lượt thích</th>
+          <th>Hiệu lực</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="v: ${videos}">
+          <td th:text="${v.getTitle()}"></td>
+          <td th:text="${v.getFavorites().size()}"></td>
+          <td th:text="${v.getActive()} == true ? 'Còn hiệu lực' : 'Hết hiệu lực'"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

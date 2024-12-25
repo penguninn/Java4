@@ -1,0 +1,6 @@
+127.0.0.1 - - [12/Nov/2024:21:16:09 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Nov/2024:21:16:09 +0700] "GET /ASM_1/WEB-INF/classes/com/poly/entity/NguoiDung.java HTTP/1.1" 404 683
+127.0.0.1 - - [12/Nov/2024:21:59:04 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Nov/2024:21:59:04 +0700] "GET /ASM_1/WEB-INF/classes/com/poly/Main.java HTTP/1.1" 404 683
+127.0.0.1 - - [12/Nov/2024:23:09:00 +0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Nov/2024:23:09:01 +0700] "GET /ASM_1/WEB-INF/classes/com/poly/Main.java HTTP/1.1" 404 683

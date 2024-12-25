@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+    <script>
+        function fetchData() {
+            fetch('/Lab7/data')  
+                .then(response => response.json()) 
+                .then(data => {
+                    console.log(data);  
+                    document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => console.error('Error:', error)); 
+        }
+    </script>
+</head>
+<body>
+    <h1>Ứng Dụng Fetch API</h1>
+    <button onclick="fetchData()">Lấy Dữ Liệu</button>
+    <pre id="output"></pre>  
+</body>
+</html>
